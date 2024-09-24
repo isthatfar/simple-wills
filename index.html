@@ -2,214 +2,163 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DigiMedia - SEO Template</title>
+    <base href="https://www.properwills.com/uk/">
+    <title>Swiftwills UK - Online Will Writing by Legal Experts</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Existing Preloads & Styles -->
+    <link rel="preload" href="/res/font/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/res/font/poppins-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/res/font/poppins-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/res/font/merriweather-700-m.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style2.css" media="print" onload="this.media='all'">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v2.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <!-- Preconnects for Performance -->
+    <link href="https://www.googletagmanager.com" rel="preconnect">
+    <link href="https://www.google-analytics.com" rel="preconnect">
+    <link href="https://www.googleadservices.com" rel="preconnect">
+    <link href="https://googleads.g.doubleclick.net" rel="preconnect">
+    <link href="https://stats.g.doubleclick.net" rel="preconnect">
+    <link href="https://www.google.com" rel="preconnect">
+    <link href="https://www.google.co.uk" rel="preconnect">
+    <link href="https://bat.bing.com" rel="preconnect">
+    <link href="https://connect.facebook.net" rel="preconnect">
+    <link href="https://www.facebook.com" rel="preconnect">
+
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="/res/img/fav.png" />
+
+    <meta name="Description" content="Swiftwills is a will writing company. Have your will written and reviewed by our UK wills specialists. Quick, easy, secure and legally binding.">
+    <meta http-equiv="content-language" content="en-gb">
+
+    <!-- Scripts -->
+    <script src="/res/js.js?63" async></script>
+    <script src="/res/js-livechat.js?7" async></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6EGG3RFYJ"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-G6EGG3RFYJ');
+        gtag('config', 'AW-651505487');
+    </script>
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div id="js-preloader" class="js-preloader">
-        <div class="preloader-inner">
-            <span class="dot"></span>
-            <div class="dots"><span></span><span></span><span></span></div>
-        </div>
-    </div>
-
-    <!-- Pre-header -->
-    <div class="pre-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <ul class="info">
-                        <li><a href="#"><i class="fa fa-envelope"></i>digimedia@company.com</a></li>
-                        <li><a href="#"><i class="fa fa-phone"></i>010-020-0340</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<body style="font-family: 'Poppins', sans-serif; background-color: #f7f7f7; color: #333;">
 
     <!-- Header -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/logo-v2.png" alt="DigiMedia Logo">
-                        </a>
-                        <ul class="nav">
-                            <li><a href="#top" class="active">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Projects</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#contact" class="border-first-button">Free Quote</a></li>
-                        </ul>
-                        <a class="menu-trigger"><span>Menu</span></a>
-                    </nav>
-                </div>
+    <div class="top" style="background-color: #333; padding: 20px;">
+        <div class="align" style="display: flex; justify-content: space-between; align-items: center;">
+            <a class="logo" href="/uk/" style="color: #fff; font-size: 24px; text-decoration: none;">
+                <svg aria-hidden="true" role="img" style="vertical-align: middle; width: 40px; height: 40px;">
+                    <use xlink:href="#logo"></use>
+                </svg>
+                <u>Properwills</u>
+            </a>
+            <div class="menu" style="display: flex; gap: 20px;">
+                <a href="wills2.html" style="color: #fff;">Online Wills</a>
+                <a href="wills.html" style="color: #fff;">Pricing</a>
+                <a href="about.html" style="color: #fff;">About</a>
+                <a href="contact.html" style="color: #fff;">Contact us</a>
+                <a href="questionnaire.html" class="start_m" style="background-color: #0ac672; padding: 10px 20px; color: #fff; border-radius: 5px;">Start my will</a>
             </div>
         </div>
-    </header>
+    </div>
 
-    <!-- Banner -->
-    <div class="main-banner" id="top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="left-content">
-                        <h6>Digital Media Agency</h6>
-                        <h2>We Boost Your Website Traffic</h2>
-                        <p>This template is brought to you by TemplateMo. Feel free to use it for commercial purposes.</p>
-                        <a href="#contact" class="border-first-button">Free Quote</a>
-                    </div>
+    <!-- Hero Section -->
+    <div class="white" style="background-color: #fff; padding: 100px 0;">
+        <div class="align clear" style="text-align: center;">
+            <div class="lhero clear">
+                <h1 style="font-size: 48px; color: #333;">Would you make a will if it was easy and online?</h1>
+                <p style="font-size: 18px; color: #555;">Protecting your legacy and your family should be easy. Start your will online in just 15 minutes, receive it in less than 3 days.</p>
+                <div class="cta arrow" style="margin-top: 20px;">
+                    <a href="questionnaire.html" style="background-color: #0ac672; padding: 15px 30px; color: #fff; text-decoration: none; border-radius: 5px;">Start my will</a>
                 </div>
-                <div class="col-lg-6">
-                    <img src="assets/images/slider-dec-v2.png" alt="Banner Image">
+                <div class="cta sec" style="margin-top: 20px;">
+                    <a href="contact.html" style="background-color: #f5f5f7; padding: 15px 30px; color: #333; text-decoration: none; border-radius: 5px;">Ask us anything</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- About Section -->
-    <div id="about" class="about section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/images/about-dec-v2.png" alt="About Image">
-                </div>
-                <div class="col-lg-6">
-                    <h6>About Us</h6>
-                    <h4>Who is DigiMedia <em>Agency</em></h4>
-                    <p>You can use this template for any purpose. Support TemplateMo in creating new templates.</p>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="skill-item">
-                                <div class="progress">
-                                    <div class="progress-value">90%<br><span>Coding</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="skill-item">
-                                <div class="progress">
-                                    <div class="progress-value">80%<br><span>Photoshop</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="skill-item">
-                                <div class="progress">
-                                    <div class="progress-value">80%<br><span>Animation</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Section -->
-    <div id="services" class="services section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h6>Our Services</h6>
-                    <h4>What Our Agency <em>Provides</em></h4>
-                </div>
-                <div class="col-lg-12">
-                    <div class="naccs">
-                        <div class="grid">
-                            <div class="menu">
-                                <div class="thumb active">
-                                    <img src="assets/images/service-icon-01.png" alt="Service Icon">Apartments
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/service-icon-02.png" alt="Service Icon">Food &amp; Life
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/service-icon-03.png" alt="Service Icon">Cars
-                                </div>
-                            </div>
-                            <ul class="nacc">
-                                <li class="active">
-                                    <h4>SEO Analysis &amp; Daily Reports</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </li>
-                                <li>
-                                    <h4>Healthy Food &amp; Life</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </li>
-                                <li>
-                                    <h4>Car Research &amp; Transport</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact" class="contact-us section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/images/contact-dec-v2.png" alt="Contact Image">
-                </div>
-                <div class="col-lg-6">
-                    <form id="contact" method="post">
-                        <input type="name" name="name" placeholder="Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <input type="text" name="subject" placeholder="Subject">
-                        <textarea name="message" placeholder="Message" required></textarea>
-                        <button type="submit" class="main-button">Send Message Now</button>
-                    </form>
-                </div>
+    <!-- How We Help Section -->
+    <div class="alignlarge" style="padding: 70px 0; background-color: #f7f7f7;">
+        <div class="hcards" id="how">
+            <h2 style="font-size: 36px; color: #333; text-align: center;">How can we help you?</h2>
+            <div class="align" style="display: flex; justify-content: space-around; margin-top: 40px;">
+                <a href="do-i-need-a-will.html" style="background-color: #fff; padding: 30px; text-align: center; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <svg aria-hidden="true" role="img" viewbox="0 0 140 140" style="width: 42px; height: 42px;">
+                        <g fill="none" stroke="#222" stroke-linecap="round" stroke-width="5">
+                            <path d="M4.4 100.6a39.4 39.4 0 0154.8-36.2M19.7 28.4a24 24 0 1048.1 0 24 24 0 10-48.1 0zM65.6 100.6a35 35 0 1070 0 35 35 0 10-70 0zM89.7 94a11 11 0 1111 11"/>
+                            <path d="M100.6 118.1a2.2 2.2 0 102.2 2.2 2.2 2.2 0 00-2.2-2.2"/>
+                        </g>
+                    </svg>
+                    <span style="display: block; margin-top: 15px; font-weight: 600; color: #333;">Check if you need a will</span>
+                    <b style="background-color: #0ac672; padding: 10px 20px; color: #fff; border-radius: 5px; margin-top: 10px; display: block;">Take the quiz</b>
+                </a>
+                <a href="contact.html" style="background-color: #fff; padding: 30px; text-align: center; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <svg aria-hidden="true" role="img" viewbox="0 0 140 140" style="width: 42px; height: 42px;">
+                        <g fill="none" stroke="#222" stroke-linecap="round" stroke-width="5">
+                            <path d="M65.63 109.38a8.75 8.75 0 01-8.75-8.75V56.88a8.75 8.75 0 018.74-8.76h61.25a8.75 8.75 0 018.75 8.76v43.74a8.75 8.75 0 01-8.75 8.75h-8.75v26.25l-26.25-26.25z"/>
+                            <path d="M39.38 74.38l-17.5 17.5V65.63h-8.75a8.75 8.75 0 01-8.76-8.75V13.12a8.75 8.75 0 018.75-8.74h61.26a8.75 8.75 0 018.75 8.75v17.5"/>
+                        </g>
+                    </svg>
+                    <span style="display: block; margin-top: 15px; font-weight: 600; color: #333;">Ask us anything</span>
+                    <b style="background-color: #f5f5f7; padding: 10px 20px; color: #333; border-radius: 5px; margin-top: 10px; display: block;">Contact us</b>
+                </a>
+                <a href="questionnaire.html" style="background-color: #fff; padding: 30px; text-align: center; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <svg aria-hidden="true" role="img" viewbox="0 0 140 140" style="width: 42px; height: 42px;">
+                        <g fill="none" stroke="#222" stroke-linecap="round" stroke-width="5">
+                            <path d="M132 86.74l-44.5 44.51-21.88 4.38L70 113.75l44.51-44.5a12.33 12.33 0 0117.45 0l.05.04a12.34 12.34 0 01-.02 17.45zM48.1 118.13h-35a8.75 8.75 0 01-8.75-8.75V13.13a8.75 8.75 0 018.75-8.76h87.5a8.75 8.75 0 018.75 8.75V52.5M48.1 30.63h35M30.6 56.88h52.5M30.6 83.13h43.75"/>
+                        </g>
+                    </svg>
+                    <span style="display: block; margin-top: 15px; font-weight: 600; color: #333;">Make your will online</span>
+                    <b style="background-color: #0ac672; padding: 10px 20px; color: #fff; border-radius: 5px; margin-top: 10px; display: block;">Try for free</b>
+                </a>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2022 DigiMedia Co., Ltd. Design: <a href="https://templatemo.com">TemplateMo</a></p>
+    <div class="footer" style="background-color: #333; color: #fff; padding: 40px 0;">
+        <div class="align" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+            <div>
+                <span class="logo" style="font-size: 24px;"><svg aria-hidden="true" role="img"><use xlink:href="#logo"></use></svg><u>Properwills</u></span>
+            </div>
+            <div>
+                <b>Properwills</b>
+                <a href="about.html" style="color: #fff;">About</a>
+                <a href="terms.html" style="color: #fff;">Terms of use</a>
+                <a href="cookies.html" style="color: #fff;">Cookies policy</a>
+                <a href="privacy.html" style="color: #fff;">Privacy policy</a>
+                <a href="sustainability.html" style="color: #fff;">Sustainability</a>
+                <a href="guides/" style="color: #fff;">Guides</a>
+            </div>
+            <div>
+                <b>Services</b>
+                <a href="/uk/wills2.html" style="color: #fff;">Online wills</a>
+                <a href="/uk/couple-wills.html" style="color: #fff;">Couple wills</a>
+                <a href="/uk/telephone-wills.html" style="color: #fff;">Telephone wills</a>
+                <a href="/uk/nhs-will.html" style="color: #fff;">NHS wills</a>
+                <a href="/uk/wills.html" style="color: #fff;">Pricing</a>
+            </div>
+            <div>
+                <b>Contact</b>
+                <a href="contact.html" style="color: #fff;">Contact us</a>
+                <p style="color: #999;">Properwills, 124 City Road, London EC1V&nbsp;2NX, UK</p>
+            </div>
         </div>
-    </footer>
+        <div class="legal" style="text-align: center; color: #999; padding-top: 20px;">© Properwills 2023. This material is for general information only and does not constitute tax, legal, or any other form of advice. We are not a law firm.</div>
+    </div>
 
-    <!-- Scripts -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/imagesloaded.js"></script>
-    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
