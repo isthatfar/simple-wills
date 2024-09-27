@@ -31,7 +31,7 @@ u { text-decoration: none; }
 .ctabig a { font-size: 16px; padding: 25px 45px; }
 
 /* Top Banner and Logo */
-.top { background: #ffffff; height: 55px; position: sticky; top: 0; z-index: 20; color: #e78453; }
+.top { background: #282828; height: 55px; position: sticky; top: 0; z-index: 20; color: #eeeeee; }
 .top .logo, .footer .logo { display: block; float: left; height: 24px; margin: 13px 25px 0 0; padding: 2px 0; }
 .logo svg { width: 24px; height: 24px; float: left; }
 .logo u { font-weight: 600; font-size: 18px; float: left; margin: 0 0 0 4px; letter-spacing: .2px; }
