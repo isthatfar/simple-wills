@@ -26,7 +26,7 @@ u { text-decoration: none; }
 
 /* Call to Action (CTA) */
 .cta { text-align: center; }
-.cta a, .cta input { display: inline-block; padding: 15px 30px; background: #0ac672; color: #fff; font-weight: 500; border-radius: 7px; box-shadow: 1px 3px 4px #0ac67245; font-size: inherit; border: 0; cursor: pointer; }
+.cta a, .cta input { display: inline-block; padding: 15px 30px; background: #ea7419; color: #fff; font-weight: 500; border-radius: 7px; box-shadow: 1px 3px 4px #f88c20; font-size: inherit; border: 0; cursor: pointer; }
 .ctabig { padding: 50px 0; }
 .ctabig a { font-size: 16px; padding: 25px 45px; }
 
@@ -42,11 +42,6 @@ u { text-decoration: none; }
 .hero h1 { max-width: 550px; }
 .hero p { max-width: 650px; margin: 20px 0 0; font-size: 16px; line-height: 1.6; color: #444; }
 .hero.about p { color: #1a1a1a; }
-
-/* As Seen Section */
-.aseen { padding: 50px 0; }
-.aseen .align { display: flex; align-items: center; justify-content: center; gap: 55px; }
-.aseen p { color: #aaa; font-size: .95em; text-transform: uppercase; font-weight: 500; padding: 2px 0 0; }
 
 /* Block Section */
 .bsep { background: #fafafa; height: 5px; }
